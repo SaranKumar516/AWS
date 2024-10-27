@@ -11,4 +11,10 @@
 # Using the public ip of the AWS instance, launch it in the browser - http:/publicip:8080/ #make sure the 8080 port is enabled in the EC@ security groups. 
 # Enter the intial admin password and then login to the Jenkins. #http://54.160.150.19:8080/
 # Logged into Jenkins home page
-# 
+# create a new IAM user in AWS 
+# Add access key, attach admin access policy
+# created user
+# access key is visible but secret access key isn't visible
+# access key: AKIA4MTWI6LP7636WDA2 | Secret Access key: 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
+# Jenkins > Dashboard > Manage Jenkins > Manage Credentials > 
+# Kind : Secret text > Scope: global > 
