@@ -2,7 +2,7 @@ provider "aws" {
   region: "us-east-1" #N.Virginia
 }
 
-resource: "aws_instance" "foo" {
+resource: "aws_instance" "terraform" {
   ami = "" 
   instance_type = "t2.micro"
   tags = {
