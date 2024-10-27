@@ -19,3 +19,9 @@
 # Jenkins > Dashboard > Manage Jenkins > Manage Credentials > 
 # Kind : Secret text > Scope: global > input the access key id and the id used in jenkins code
 # Create one more credential > secret text > AWS_SECRET_ACCESS_KEY
+# Sometimes you may end up with an error while selecting the pipeline pull from SCM 
+# make sure that Git is installed in Jenkins server
+# <img width="319" alt="image" src="https://github.com/user-attachments/assets/65a75b79-7a38-4004-a716-9db2e07c4427">
+# 
+# 
+
