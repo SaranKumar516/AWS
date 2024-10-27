@@ -17,4 +17,5 @@
 # access key is visible but secret access key isn't visible
 # access key: AKIA4MTWI6LP7636WDA2 | Secret Access key: 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
 # Jenkins > Dashboard > Manage Jenkins > Manage Credentials > 
-# Kind : Secret text > Scope: global > 
+# Kind : Secret text > Scope: global > input the access key id and the id used in jenkins code
+# Create one more credential > secret text > AWS_SECRET_ACCESS_KEY
